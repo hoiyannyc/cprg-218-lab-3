@@ -1,0 +1,38 @@
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px; 
+    }
+    .card {
+        width: 100%;
+    }
+  }
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .card {
+        flex-grow: 1;
+        width: calc(50% - 10px); 
+    }
+  }
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    .card-container {
+        display: grid;
+        gap: auto; 
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+    }
+  }

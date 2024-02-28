@@ -1,0 +1,33 @@
+.video {
+    background-color: #dddddd;
+    border-radius: 0.25rem;
+    box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
+    padding-bottom: 2rem;
+    position: relative; 
+    justify-content: center;
+    display: flex;
+} 
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    iframe {
+        width: 100%;
+        margin: 2rem;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    iframe {
+        width: 60%;
+        margin: 2rem;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    iframe {
+        width: 40%;
+        margin: 2rem;
+    }
+}
